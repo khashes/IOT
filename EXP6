@@ -1,0 +1,5 @@
+import requests
+url = "generated url on thinktwitter"
+data 1 = ('api_key':"value",'status':"value) // refer thinktwitter portal for api_key after linking your twitter account
+x=request.post(url,data = data1)
+print(x)
