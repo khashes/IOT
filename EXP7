@@ -1,0 +1,19 @@
+#include <LiquidCrystal.h>
+LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
+
+void setup() {
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+
+  // set up cursor at top left
+  lcd.setCursor(0, 0);
+  lcd.print("HELLO");
+
+  // set up cursor at bottom left
+  lcd.setCursor(0, 1);
+  lcd.print("WORLD");
+}
+
+void loop() {
+
+}
